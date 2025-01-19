@@ -1,0 +1,30 @@
+:root {
+    /*Couleur des textes*/
+         /*Couleur des textes général*/
+         --backgroundBlack: black;
+         --backgroundWhite: white;
+
+     /*Couleur des textes du Footer*/
+         --Copyright: #ff007f;
+
+ /*Backgound du site*/
+     /*Backgound du général*/
+         --textColorBlack: black;
+         --textColorWhite: white;
+
+     /*Background du Menu Burger*/
+         --BackgroudMenuBurger: #A9CCE3;
+         --textColorMenu: #818181;
+
+         
+    /*Logique taille police d'écriture site*/
+    --font-size-root: 16px; /*Ref size, dimensionne tout le site*/
+    --p: var(--font-size-root); /*16px*/
+    --h1: calc(var(--font-size-root) * 2); /*32px*/
+    --h2: calc(var(--font-size-root) * 1.5); /*24px*/
+    --h3: calc(var(--font-size-root) + 2px); /*18px*/
+    --h4: var(--font-size-root); /*16px*/
+    --h5: calc(var(--font-size-root) - 2px); /*14px*/
+    --h6: calc(var(--font-size-root) - 5px); /*11px*/
+    --h7: calc(var(--font-size-root) - 7px); /*9px*/
+}
