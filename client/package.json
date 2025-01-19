@@ -7,7 +7,9 @@
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "commit": "bash ./npm-run-commit.sh",
+    "pull-force": "bash ./npm-run-pull-force.sh"
   },
   "dependencies": {
     "helmet": "^8.0.0",
