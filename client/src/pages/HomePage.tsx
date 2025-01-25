@@ -36,8 +36,8 @@ function HomePage() {
   }
      // Filtrer les mots-clés non vides
      const filterKeywords = Object.values(SEO.keywords).filter(keyword => keyword.trim() !== "").join(", ");
-console.log(filterKeywords);
-    return (
+
+     return (
         <div>
             <Helmet>
                   {/* Balises SEO */}
