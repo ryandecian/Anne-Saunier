@@ -1,0 +1,111 @@
+@import "../../../root.css";
+
+.FooterMobile {
+    /*Le code de cette balise ne sert a rien pour le moment*/
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+@media (min-width: 768px) {
+    .FooterMobile {
+        display: none;
+    }
+}
+@media (max-width: 768px) {
+    .FooterMobile {
+        display: flex;
+        justify-content: center;
+        align-items: start;
+        flex-direction: column;
+    }
+}
+
+.CopyrightMobile {
+    font-size: var(--h5);
+    color: var(--textColorWhite);
+    margin: 0.7rem 0rem 0rem 0rem;
+}
+
+.DateLogMobile {
+    font-size: var(--h5);
+    color: var(--Copyright);
+}
+
+.CopyrightSubMobile {
+    font-size: var(--h5);
+    color: var(--textColorWhite);
+    margin: 0rem 0rem 0rem 0rem;
+}
+
+/* Media query répétitif pour plusieurs balises */
+
+@media (max-width: 250px) {
+    .CopyrightMobile, .DateLogMobile, .CopyrightSubMobile {
+        font-size: var(--h7)
+    }
+}
+@media (min-width: 250px) and (max-width: 270px) {
+    .CopyrightMobile, .DateLogMobile, .CopyrightSubMobile {
+        font-size: calc(var(--h7) + 0.39px);
+    }
+}
+@media (min-width: 270px) and (max-width: 300px) {
+    .CopyrightMobile, .DateLogMobile, .CopyrightSubMobile {
+        font-size: calc(var(--h7) + 0.78px);
+    }
+}
+@media (min-width: 300px) and (max-width: 330px) {
+    .CopyrightMobile, .DateLogMobile, .CopyrightSubMobile {
+        font-size: calc(var(--h7) + 1.17px);
+    }
+}
+@media (min-width: 300px) and (max-width: 330px) {
+    .CopyrightMobile, .DateLogMobile, .CopyrightSubMobile {
+        font-size: calc(var(--h7) + 1.56px);
+    }
+}
+@media (min-width: 330px) and (max-width: 360px) {
+    .CopyrightMobile, .DateLogMobile, .CopyrightSubMobile {
+        font-size: calc(var(--h7) + 1.95px);
+    }
+}
+@media (min-width: 360px) and (max-width: 390px) {
+    .CopyrightMobile, .DateLogMobile, .CopyrightSubMobile {
+        font-size: calc(var(--h7) + 2.34px);
+    }
+}
+@media (min-width: 390px) and (max-width: 420px) {
+    .CopyrightMobile, .DateLogMobile, .CopyrightSubMobile {
+        font-size: calc(var(--h7) + 2.73px);
+    }
+}
+@media (min-width: 420px) and (max-width: 450px) {
+    .CopyrightMobile, .DateLogMobile, .CopyrightSubMobile {
+        font-size: calc(var(--h7) + 3.12px);
+    }
+}
+@media (min-width: 450px) and (max-width: 480px) {
+    .CopyrightMobile, .DateLogMobile, .CopyrightSubMobile {
+        font-size: calc(var(--h7) + 3.51px);
+    }
+}
+@media (min-width: 480px) and (max-width: 510px) {
+    .CopyrightMobile, .DateLogMobile, .CopyrightSubMobile {
+        font-size: calc(var(--h7) + 3.9px);
+    }
+}
+@media (min-width: 510px) and (max-width: 540px) {
+    .CopyrightMobile, .DateLogMobile, .CopyrightSubMobile {
+        font-size: calc(var(--h7) + 4.29px);
+    }
+}
+@media (min-width: 540px) and (max-width: 570px) {
+    .CopyrightMobile, .DateLogMobile, .CopyrightSubMobile {
+        font-size: calc(var(--h7) + 4.68px);
+    }
+}
+@media (min-width: 570px) and (max-width: 600px) {
+    .CopyrightMobile, .DateLogMobile, .CopyrightSubMobile {
+        font-size: calc(var(--h7) + 5.07px);
+    }
+}

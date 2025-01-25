@@ -1,0 +1,23 @@
+@import "../../../root.css";
+
+.FooterPC {
+    /*Le code de cette balise ne sert a rien pour le moment*/
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+@media (max-width: 768px) {
+    .FooterPC {
+        display: none;
+    }
+}
+
+.CopyrightPC {
+    font-size: var(--h5);
+    color: var(--textColorWhite);
+}
+
+.DateLogPC {
+    font-size: var(--h5);
+    color: var(--Copyright);
+}
