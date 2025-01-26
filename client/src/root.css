@@ -28,3 +28,8 @@
     --h6: calc(var(--font-size-root) - 5px); /*11px*/
     --h7: calc(var(--font-size-root) - 7px); /*9px*/
 }
+
+body {
+    font-family: 'Britannic', sans-serif;
+    padding: 10px;
+}
