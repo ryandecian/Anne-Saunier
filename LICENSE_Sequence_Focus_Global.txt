@@ -1,0 +1,79 @@
+# Licence Séquence Focus
+Version 1.0 – Dernière mise à jour : 25/01/2025
+Ce site est protégé par une licence exclusive. Toute utilisation non autorisée est strictement interdite.
+
+---
+
+## 1. Droits d'utilisation
+Le site peut être utilisé par **Anne SAUNIER** à des fins commerciales ou personnelles. Le droit de modification, de revente ou de redistribution est autorisé. Toute utilisation doit se faire dans le respect des lois en vigueur.
+
+## 2. Restrictions
+Le présent site ne peut être utilisé dans les conditions suivantes :
+- **Interdiction de copie et de distribution** : Le site ne peut être copié, distribué ou partagé sous quelque forme que ce soit sans autorisation écrite préalable.
+- **Interdiction de modification** : Toute modification du code source ou du contenu est strictement interdite, sauf par le développeur autorisé.
+- **Interdiction de revente** : Le site ne peut être revendu ou loué sans un accord écrit des parties concernées.
+- **Confidentialité** : Le licencié s'engage à ne pas divulguer le code source ou toute information relative au fonctionnement du site.
+
+## 3. Limitation de responsabilité
+Le site est fourni "tel quel", sans garantie d'aucune sorte, expresse ou implicite. Le développeur et le propriétaire ne seront en aucun cas responsables de tout dommage direct ou indirect résultant de son utilisation non autorisée.
+
+## 4. Attribution
+Toute utilisation conforme du site doit mentionner dans les crédits :
+
+> "Site développé par Ryan DECIAN pour Anne SAUNIER – Tous droits réservés."
+
+## 5. Durée de la licence
+Cette licence est accordée pour une durée **indéterminée**, sans obligation de renouvellement ni frais supplémentaires.
+
+## 6. Sanctions en cas de violation
+Toute violation des présentes conditions entraînera des poursuites judiciaires pouvant inclure des sanctions financières et pénales.
+
+## 7. Loi applicable
+Le présent accord est régi par le droit français. En cas de litige, le différend sera soumis aux tribunaux compétents du ressort du Concédant.
+
+---
+
+**Fait à Grabels, le 25/01/2025**  
+**Ryan DECIAN** – Développeur web  
+**Anne SAUNIER** – Titulaire de la licence
+
+---
+
+# Sequence Focus License
+Version 1.0 – Last updated: 25/01/2025
+This site is protected by an exclusive license. Any unauthorized use is strictly prohibited.
+
+---
+
+## 1. Usage Rights
+The website may be used by **Anne SAUNIER** for commercial or personal purposes. The right to modify, resell, or redistribute is granted. All usage must comply with applicable laws.
+
+## 2. Restrictions
+The website may not be used under the following conditions:
+- **Prohibition of copying and distribution**: The website may not be copied, distributed, or shared in any form without prior written authorization.
+- **Prohibition of modification**: Any modification of the source code or content is strictly prohibited, except by the authorized developer.
+- **Prohibition of resale**: The website may not be resold or leased without written agreement from the concerned parties.
+- **Confidentiality**: The licensee agrees not to disclose the source code or any information related to the operation of the website.
+
+## 3. Limitation of Liability
+The website is provided "as is," without any express or implied warranty of any kind. The developer and owner shall not be held liable for any direct or indirect damage resulting from its unauthorized use.
+
+## 4. Attribution
+Any compliant use of the website must include the following credit:
+
+> "Website developed by Ryan DECIAN for Anne SAUNIER – All rights reserved."
+
+## 5. License Duration
+This license is granted for an **indefinite period**, with no obligation for renewal or additional fees.
+
+## 6. Penalties for Violations
+Any violation of these terms will result in legal action, which may include financial and criminal penalties.
+
+## 7. Applicable Law
+This agreement is governed by French law. In the event of a dispute, the matter will be submitted to the competent courts of the Licensor's jurisdiction.
+
+---
+
+**Signed in Grabels, on 25/01/2025**  
+**Ryan DECIAN** – Web Developer  
+**Anne SAUNIER** – License Holder

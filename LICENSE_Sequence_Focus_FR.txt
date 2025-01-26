@@ -1,0 +1,38 @@
+# Licence Séquence Focus
+Version 1.0 – Dernière mise à jour : 25/01/2025
+Ce site est protégé par une licence exclusive. Toute utilisation non autorisée est strictement interdite.
+
+---
+
+## 1. Droits d'utilisation
+Le site peut être utilisé par **Anne SAUNIER** à des fins commerciales ou personnelles. Le droit de modification, de revente ou de redistribution est autorisé. Toute utilisation doit se faire dans le respect des lois en vigueur.
+
+## 2. Restrictions
+Le présent site ne peut être utilisé dans les conditions suivantes :
+- **Interdiction de copie et de distribution** : Le site ne peut être copié, distribué ou partagé sous quelque forme que ce soit sans autorisation écrite préalable.
+- **Interdiction de modification** : Toute modification du code source ou du contenu est strictement interdite, sauf par le développeur autorisé.
+- **Interdiction de revente** : Le site ne peut être revendu ou loué sans un accord écrit des parties concernées.
+- **Confidentialité** : Le licencié s'engage à ne pas divulguer le code source ou toute information relative au fonctionnement du site.
+
+## 3. Limitation de responsabilité
+Le site est fourni "tel quel", sans garantie d'aucune sorte, expresse ou implicite. Le développeur et le propriétaire ne seront en aucun cas responsables de tout dommage direct ou indirect résultant de son utilisation non autorisée.
+
+## 4. Attribution
+Toute utilisation conforme du site doit mentionner dans les crédits :
+
+> "Site développé par Ryan DECIAN pour Anne SAUNIER – Tous droits réservés."
+
+## 5. Durée de la licence
+Cette licence est accordée pour une durée **indéterminée**, sans obligation de renouvellement ni frais supplémentaires.
+
+## 6. Sanctions en cas de violation
+Toute violation des présentes conditions entraînera des poursuites judiciaires pouvant inclure des sanctions financières et pénales.
+
+## 7. Loi applicable
+Le présent accord est régi par le droit français. En cas de litige, le différend sera soumis aux tribunaux compétents du ressort du Concédant.
+
+---
+
+**Fait à Grabels, le 25/01/2025**  
+**Ryan DECIAN** – Développeur web  
+**Anne SAUNIER** – Titulaire de la licence
