@@ -14,7 +14,7 @@ Séquence Focus est un site vitrine développé pour l'activité de photographie
 
 ## Licence
 
-Ce site est protégé par une licence exclusive. Toute utilisation non autorisée est strictement interdite. Pour plus d'informations, consultez le fichier [LICENSE](./LICENSE_Sequence_Focus_Global).
+Ce site est protégé par une licence exclusive. Toute utilisation non autorisée est strictement interdite. Pour plus d'informations, consultez le fichier [LICENSE](./LICENSE_Sequence_Focus_Global.txt).
 
 ## Technologies utilisées
 
