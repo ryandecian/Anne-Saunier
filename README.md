@@ -22,10 +22,6 @@ Ce site est protégé par une licence exclusive. Toute utilisation non autorisé
 - **Back-end :** Node.js, Express (si applicable)
 - **Base de données :** PostgreSQL / MySQL (si applicable)
 
-## Déploiement
-
-Le projet peut être déployé sur un NAS Synology en utilisant un serveur Node.js et Docker. Assurez-vous d'avoir les bonnes configurations de reverse proxy et de nom de domaine.
-
 ## Contact
 
 Développé par **Ryan DECIAN**  
