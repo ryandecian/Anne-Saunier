@@ -1,50 +1,37 @@
-# React + TypeScript + Vite
+# Séquence Focus
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Version : 1.0 – Dernière mise à jour : 25/01/2025**
 
-Currently, two official plugins are available:
+Séquence Focus est un site vitrine développé pour l'activité de photographie professionnelle d'Anne SAUNIER.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Fonctionnalités
 
-## Expanding the ESLint configuration
+- Création et gestion de compte client
+- Téléchargement sécurisé des photos
+- Accès aux factures en ligne
+- Interface utilisateur intuitive et responsive
+- Sécurité renforcée pour la protection des données
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Licence
 
-- Configure the top-level `parserOptions` property like this:
+Ce site est protégé par une licence exclusive. Toute utilisation non autorisée est strictement interdite. Pour plus d'informations, consultez le fichier [LICENSE](./LICENSE.txt).
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+## Technologies utilisées
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+- **Front-end :** React, TypeScript, CSS Modules
+- **Back-end :** Node.js, Express (si applicable)
+- **Base de données :** PostgreSQL / MySQL (si applicable)
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+## Déploiement
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+Le projet peut être déployé sur un NAS Synology en utilisant un serveur Node.js et Docker. Assurez-vous d'avoir les bonnes configurations de reverse proxy et de nom de domaine.
+
+## Contact
+
+Développé par **Ryan DECIAN**  
+Email : ryan.decian.dev+projet-Anne-Saunier@ryandecian.com  
+Site web : [portfolio-ryan-decian.netlify.app](https://portfolio-ryan-decian.netlify.app)
+
+---
+
+© 2025 Séquence Focus. Tous droits réservés.
