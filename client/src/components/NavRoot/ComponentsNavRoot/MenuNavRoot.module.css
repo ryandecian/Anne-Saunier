@@ -1,0 +1,60 @@
+/*Ce module css est appelé dans les composant suivant : 
+
+NavMobile.tsx
+from "../NavMobile//NavMobile.tsx"
+
+NavPC.tsx
+from "../NavPC/NavPC.tsx"
+*/
+
+/*------------------------------------------------------*/
+
+/*Style version Mobile*/
+
+.MenuUlMobile {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    list-style-type: none;
+    padding: 0;
+    margin: 0px 0px 0px 2rem;
+}
+
+.MenuLiMobile {
+    margin: 0.5rem 0rem 0.5rem 0rem;
+}
+
+.MenuLinkMobile {
+    text-decoration: none;
+    font-size: var(--p);
+    color: var(--textColorBlack);
+}
+@media (max-width: 250px) {
+    .MenuLinkMobile {
+        font-size: var(--h5);
+    }
+}
+@media (min-width: 250px) and (max-width: 350px) {
+    .MenuLiMobile {
+        font-size: calc(var(--h5) + 1px);
+    }
+}
+
+
+/*Style version PC*/
+
+.MenuUlPC {
+    display: flex;
+    justify-content: space-between;
+}
+
+.MenuLiPC {
+    list-style: none;
+    margin: 2em;
+}
+
+.MenuLinkPC {
+    text-decoration: none;
+    color: var(--textColorBlack);
+}

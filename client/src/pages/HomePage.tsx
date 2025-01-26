@@ -1,4 +1,5 @@
 import { Helmet } from "react-helmet-async";
+import NavRoot from "../components/NavRoot/NavRoot";
 
 function HomePage() {
     const SEO = {
@@ -72,7 +73,9 @@ function HomePage() {
                      {/* Canonical URL (évite le contenu dupliqué pour les moteurs de recherche) */}
                          <link rel="canonical" href={SEO.url} />
             </Helmet>
-            <header/>
+            <header>
+                 <NavRoot />
+            </header>
             <main><h1>Je suis HomePage</h1></main>
             <footer/>
         </div>

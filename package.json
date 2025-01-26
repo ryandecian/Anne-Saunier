@@ -5,7 +5,6 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "commits": "bash ./npm-run-commit.sh",
     "commit": "bash -c 'git-commit'",
     "pull-force": "bash ./npm-run-pull-force.sh",
     "dev": "npm --prefix client run dev"

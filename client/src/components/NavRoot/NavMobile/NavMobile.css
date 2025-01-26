@@ -1,0 +1,169 @@
+@import "../../../root.css";
+
+.NavMobile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    @media (min-width: 768px) {
+        display: none;
+    }
+}
+
+.NavMobile > a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.NavMobile > a > h1 {
+    margin-bottom: 0.5rem;
+    font-size: var(--h1);
+    color: var(--textColorWhite);
+}
+@media (max-width: 250px) {
+    .NavMobile > a > h1 {
+        font-size: var(--h2);
+    }
+}
+@media (min-width: 250px) and (max-width: 350px) {
+    .NavMobile > a > h1 {
+        font-size: var(--h2);
+    }
+}
+
+.NavMobile > h2 {
+    margin-top: 0.5rem;
+    margin-bottom: 1.25rem;
+    color: var(--textColorWhite);
+    font-size: var(--h3);
+    text-align: center;
+}
+
+/*-----------------------------------------------*/
+/*Menu Burger*/
+
+
+/*Position du Menu Burger*/
+.sideNav {
+    width: 250px;
+    height: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: -250px;
+    background-color: var(--BackgroudMenuBurger);
+    transition: right 0.5s ease;
+}
+@media (max-width: 250px) {
+    .sideNav {
+        width: 100vw;
+        height: 100vh;
+    }
+}
+@media (min-width: 250px) and (max-width: 350px) {
+    .sideNav {
+        width: 250px;
+        height: 100%;
+    }
+}
+
+.sideNav.active {
+    right: 0;
+}
+
+/*Logique ouverture et fermeture MenuBurger*/
+#closeBtn {
+    margin: 1rem 0rem 0rem 1rem;
+    padding: 0.5rem 1.5rem;
+    text-decoration: none;
+    text-align: center;
+    font-size: 1.8rem;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border-radius: 50%;
+    background: linear-gradient(135deg, #3498db, #8e44ad); /* Dégradé bleu-violet */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Ombre */
+    transition: transform 0.3s ease, box-shadow 0.3s ease, background 0.3s ease;
+    cursor: pointer;
+}
+@media (max-width: 250px) {
+    #closeBtn {
+        padding: 0.3rem 1.2rem;
+    }
+}
+@media (min-width: 250px) and (max-width: 350px) {
+    #closeBtn {
+        padding: 0.4rem 1.35rem;
+    }
+}
+
+#closeBtn:hover {
+    transform: rotate(90deg) scale(1.1); /* Légère rotation et agrandissement */
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.5); /* Ombre renforcée */
+    background: linear-gradient(135deg, #3498db, #2980b9); /* Dégradé de couleur */
+}
+
+
+#openBtn {
+    position: fixed;
+    top: 0.5rem;
+    right: 0.5rem;
+}
+.menuBurger > span {
+    display: block;
+    width: 35px;
+    height: 5px;
+    background-color: var(--textColorBlack);
+    margin: 0.5rem 0rem;
+}
+@media (max-width: 250px) {
+    .menuBurger > span {
+        width: 30px;
+        height: 4px;
+    }
+}
+@media (min-width: 250px) and (max-width: 350px) {
+    .menuBurger > span {
+        width: 32px;
+        height: 4;
+    }
+}
+
+/*-----------------------------------------------*/
+
+/*Contenu du Menu Burger*/
+.sideNav>div {
+    display: flex;
+    justify-content: start;
+    padding: 0rem 0rem 3rem 0rem;
+
+}
+
+/*Bouttons language drapeaux*/
+
+.sideNav > section {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin: 2rem 0rem 0rem 0rem;
+    width: 100%;
+}
+@media (max-width: 250px) {
+    .sideNav > section {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 100vw;
+    }
+}
+@media (min-width: 250px) and (max-width: 350px) {
+    .sideNav > section {
+        display: flex; 
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+}
