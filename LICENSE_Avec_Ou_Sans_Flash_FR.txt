@@ -1,4 +1,4 @@
-# Licence Séquence Focus
+# Licence Avec Ou Sans Flash
 Version 1.0 – Dernière mise à jour : 25/01/2025
 Ce site est protégé par une licence exclusive. Toute utilisation non autorisée est strictement interdite.
 
@@ -36,44 +36,3 @@ Le présent accord est régi par le droit français. En cas de litige, le diffé
 **Fait à Grabels, le 25/01/2025**  
 **Ryan DECIAN** – Développeur web  
 **Anne SAUNIER** – Titulaire de la licence
-
----
-
-# Sequence Focus License
-Version 1.0 – Last updated: 25/01/2025
-This site is protected by an exclusive license. Any unauthorized use is strictly prohibited.
-
----
-
-## 1. Usage Rights
-The website may be used by **Anne SAUNIER** for commercial or personal purposes. The right to modify, resell, or redistribute is granted. All usage must comply with applicable laws.
-
-## 2. Restrictions
-The website may not be used under the following conditions:
-- **Prohibition of copying and distribution**: The website may not be copied, distributed, or shared in any form without prior written authorization.
-- **Prohibition of modification**: Any modification of the source code or content is strictly prohibited, except by the authorized developer.
-- **Prohibition of resale**: The website may not be resold or leased without written agreement from the concerned parties.
-- **Confidentiality**: The licensee agrees not to disclose the source code or any information related to the operation of the website.
-
-## 3. Limitation of Liability
-The website is provided "as is," without any express or implied warranty of any kind. The developer and owner shall not be held liable for any direct or indirect damage resulting from its unauthorized use.
-
-## 4. Attribution
-Any compliant use of the website must include the following credit:
-
-> "Website developed by Ryan DECIAN for Anne SAUNIER – All rights reserved."
-
-## 5. License Duration
-This license is granted for an **indefinite period**, with no obligation for renewal or additional fees.
-
-## 6. Penalties for Violations
-Any violation of these terms will result in legal action, which may include financial and criminal penalties.
-
-## 7. Applicable Law
-This agreement is governed by French law. In the event of a dispute, the matter will be submitted to the competent courts of the Licensor's jurisdiction.
-
----
-
-**Signed in Grabels, on 25/01/2025**  
-**Ryan DECIAN** – Web Developer  
-**Anne SAUNIER** – License Holder

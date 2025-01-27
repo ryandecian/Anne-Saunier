@@ -1,8 +1,8 @@
-# Séquence Focus
+# Avec Ou Sans Flash
 
 **Version : 1.0 – Dernière mise à jour : 25/01/2025**
 
-Séquence Focus est un site vitrine développé pour l'activité de photographie professionnelle d'Anne SAUNIER.
+Avec Ou Sans Flash est un site vitrine développé pour l'activité de photographie professionnelle d'Anne SAUNIER.
 
 ## Fonctionnalités
 
@@ -14,7 +14,7 @@ Séquence Focus est un site vitrine développé pour l'activité de photographie
 
 ## Licence
 
-Ce site est protégé par une licence exclusive. Toute utilisation non autorisée est strictement interdite. Pour plus d'informations, consultez le fichier [LICENSE](./LICENSE_Sequence_Focus_Global.txt).
+Ce site est protégé par une licence exclusive. Toute utilisation non autorisée est strictement interdite. Pour plus d'informations, consultez le fichier [LICENSE](./LICENSE_Avec_Ou_Sans_Flash_Global.txt).
 
 ## Technologies utilisées
 
@@ -30,4 +30,4 @@ Site web : [portfolio-ryan-decian.netlify.app](https://portfolio-ryan-decian.net
 
 ---
 
-© 2025 Séquence Focus. Tous droits réservés.
+© 2025 Avec Ou Sans Flash. Tous droits réservés.
