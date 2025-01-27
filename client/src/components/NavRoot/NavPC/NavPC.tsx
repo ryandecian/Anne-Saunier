@@ -28,7 +28,7 @@ function NavPC() {
 
              <section className="NavBottomPC">
                 <Link to="/home">
-                     <h1>Séquence Focus</h1>
+                     <h1>Avec Ou Sans Flash</h1>
                 </Link>
                  <h3>Anne SAUNIER - Photographe professionnel</h3>
              </section>

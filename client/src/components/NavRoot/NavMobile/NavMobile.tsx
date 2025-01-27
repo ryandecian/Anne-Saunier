@@ -13,7 +13,7 @@ function NavMobile() {
         <>
              <nav className="NavMobile">
                  <Link to="/home">
-                     <h1>Séquence Focus</h1>
+                     <h1>Avec Ou Sans Flash</h1>
                  </Link>
                  <h2>Anne SAUNIER - Photographe professionnel</h2>
                  <div  className={`sideNav ${active ? "active" : ""}`} id="mySideNav">

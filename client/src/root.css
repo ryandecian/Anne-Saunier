@@ -1,3 +1,5 @@
+@import "./assets/Fonts/Quicksand/stylesheet.css";
+
 :root {
     /*Couleur des textes*/
          /*Couleur des textes général*/
@@ -30,6 +32,6 @@
 }
 
 body {
-    font-family: 'Britannic', sans-serif;
+    font-family: "Quicksand", sans-serif;
     padding: 10px;
 }
