@@ -5,11 +5,14 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "commit": "bash -c 'git-commit'",
+    "commit": "bash ./npm-run-commit.sh",
     "pull-force": "bash ./npm-run-pull-force.sh",
-    "dev": "npm --prefix client run dev"
+    "dev": "concurrently \"npm --prefix client run dev\" \"npm --prefix server run dev\""
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^9.1.2"
+  }
 }
