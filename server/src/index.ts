@@ -4,6 +4,14 @@ const app = express();
 const port = 8080;
 
 /**
+ * Pour lire le body d'un (request) contenant un json, j'ai besoin d'importer un middleware
+ * d'express pour lire la request correctement.
+ * Action callBack
+ * Methode: USE
+ */
+app.use(express.json());
+
+/**
  * Route de base
  * Path: /
  * Action callBack
@@ -20,7 +28,8 @@ app.get("/", (req: Request, res: Response) => {
  * Methode: POST
  */
 app.post("/login", (req: Request, res: Response) => {
-    res.json("ok");
+    console.log(req.body)
+    res.json(req.body);
 })
 
 
