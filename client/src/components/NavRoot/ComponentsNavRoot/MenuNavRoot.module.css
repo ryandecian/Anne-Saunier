@@ -47,14 +47,16 @@ from "../NavPC/NavPC.tsx"
 .MenuUlPC {
     display: flex;
     justify-content: space-between;
+    padding: 0;
+    width: 80%;
 }
 
 .MenuLiPC {
     list-style: none;
-    margin: 2em;
+    margin: 0;
 }
 
 .MenuLinkPC {
     text-decoration: none;
-    color: var(--textColorBlack);
+    color: var(--ColorPrincipal);
 }

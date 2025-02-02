@@ -1,5 +1,7 @@
 import "./NavPC.css";
 import { Link } from "react-router-dom";
+import MenuNavRoot from "../ComponentsNavRoot/MenuNavRoot";
+import style from "../ComponentsNavRoot/MenuNavRoot.module.css"
 
 /* Import des Images*/
 import Logo from "../../../assets/Logo/LOGO-Avec-Ou-Sans-Flash.jpeg";
@@ -20,7 +22,14 @@ function NavPC() {
                     </Link>
                 </div>
 
-                <div></div>
+                <div className="ContainerMenuNavPC">
+                     <MenuNavRoot
+                          moduleMenuUl={style.MenuUlPC}
+                          moduleMenuLi={style.MenuLiPC}
+                          moduleMenuLink={style.MenuLinkPC}
+                     />
+                </div>
+
                 <div className="ContainerContactNavPC">
                     <div className="ContainerMailNavPC">
                         <a href="mailto:photo34000@gmail.com" className="ContactMailNavPC">

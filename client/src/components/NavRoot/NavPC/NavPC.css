@@ -6,6 +6,7 @@
     justify-content: space-around;
     align-items: center;
     width: 100%;
+    background-color: var(--ColorSecondaire);
 }
 
 /*--------------------------------------------------*/
@@ -16,14 +17,22 @@
     align-items: center;
 }
 
+.ContainerLogoNavPC > a {
+    margin: 16px 0px 16px 0px;
+}
+
+.ContainerLogoNavPC > a > img {
+    width: 200px;
+    border-radius: 0px;
+}
+
 /*--------------------------------------------------*/
 /* Container Bloc 2/2 */
-.ContainerNavigationNavPC {
+.ContainerMenuNavPC {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background-color: red;
 }
 
 
@@ -36,16 +45,19 @@
 
 .TitleNavPC {
     font-size: var(--h1);
-    color: inherit;
+    color: var(--ColorPrincipal);
     text-decoration: none;
 }
 
+
 /* Sous Bloc 2/3 : Menu */
-.ContainerContactNavPC {
+.ContainerMenuNavPC {
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 100%;
 }
+
 /* Sous Bloc 3/3 : Contact */
 .ContainerContactNavPC {
     display: flex;

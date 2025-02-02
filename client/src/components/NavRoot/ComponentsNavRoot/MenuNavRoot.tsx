@@ -16,19 +16,19 @@ function MenuNavRoot(Props: MenuNavRootProps) {
          <ul className={moduleMenuUl}>
 
              <li className={moduleMenuLi}>
-                 <Link to="#" className={moduleMenuLink}>A propos</Link>
+                 <Link to="/qui-suis-je" className={moduleMenuLink}>Qui suis-je</Link>
              </li>
 
              <li className={moduleMenuLi}>
-                 <Link to="#" className={moduleMenuLink}>Mariage</Link>
+                 <Link to="/mariage" className={moduleMenuLink}>Mariage</Link>
              </li>
              
              <li className={moduleMenuLi}>
-                 <Link to="#" className={moduleMenuLink}>Portraits</Link>
+                 <Link to="portraits" className={moduleMenuLink}>Portraits</Link>
              </li>
 
              <li className={moduleMenuLi}>
-                 <Link to="#" className={moduleMenuLink}>Tarifs</Link>
+                 <Link to="tarifs" className={moduleMenuLink}>Tarifs</Link>
              </li>
 
          </ul>
