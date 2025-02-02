@@ -3,6 +3,10 @@
 :root {
     /*Couleur des textes*/
          /*Couleur des textes général*/
+         --ColorPrincipal: #DCA54A;
+         --ColorSecondaire: #523711;
+         --ColorTexte: #3A3A3A;
+         --ColorAccentue: #DCA54A;
          --backgroundBlack: black;
          --backgroundWhite: white;
 
