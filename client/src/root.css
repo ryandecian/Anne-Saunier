@@ -40,3 +40,10 @@ body {
     padding: 0;
     margin: 0;
 }
+
+/* Espace commentaire : */
+
+/* Gestion des écrans pour un minimum de 300px en de sous non pris en charge */
+/* Sur la Navigation j'ai quand même mis une media query pour les viewport de moins de 300px */
+
+/* Pour les écran inférieur ou égale a 400px il faut baisser la taille de la police d'écriture */

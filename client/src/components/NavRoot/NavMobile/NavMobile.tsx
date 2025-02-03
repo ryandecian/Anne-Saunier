@@ -4,6 +4,9 @@ import { Link } from "react-router-dom"
 import MenuNavRoot from "../ComponentsNavRoot/MenuNavRoot"
 import style from "../ComponentsNavRoot/MenuNavRoot.module.css"
 
+/* Import des Images*/
+import Logo from "../../../assets/Logo/LOGO-Avec-Ou-Sans-Flash.jpeg";
+
 function NavMobile() {
     const [active, setActive] = useState(false)
     const funcActive = () => {
@@ -12,10 +15,34 @@ function NavMobile() {
     return (
         <>
              <nav className="NavMobile">
-                 <Link to="/home">
-                     <h1>Avec Ou Sans Flash</h1>
-                 </Link>
-                 <h2>Anne SAUNIER - Photographe professionnel</h2>
+                 <div className="ContainerLogoNavMobile">
+                     <Link to="/">
+                         <img src={Logo} alt="Logo Avec Ou Sans Flash" />
+                     </Link>
+                 </div>
+                 {/*-------------------------------------------------------*/}
+                 <div className="ContainerNavigationNavMobile">
+
+                    <div className="ContainerTitleNavMobile">
+                        <Link to="/" className="TitleNavMobile">
+                             Avec Ou Sans Flash
+                        </Link>
+                    </div>
+
+                    <div className="ContainerContactNavMobile">
+                         <div className="ContainerMailNavMobile">
+                             <a href="mailto:photo34000@gmail.com" className="ContactMailNavMobile">
+                                 photo34000@gmail.com
+                             </a>
+                         </div>
+                         <div className="ContainerTelNavMobile">
+                             <a href="tel:+33652677333" className="ContactTelNavMobile">
+                                 06 52 67 73 33
+                             </a>
+                         </div>
+                     </div>
+                 </div>
+
                  <div  className={`sideNav ${active ? "active" : ""}`} id="mySideNav">
 
                      <div>

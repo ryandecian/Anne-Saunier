@@ -1,44 +1,243 @@
 @import "../../../root.css";
 
+/* Le dode qui va suivre jusqu'au double séparateur servira à coder les balises hors MenuBurger */
 .NavMobile {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
-    flex-direction: column;
-    @media (min-width: 768px) {
+    background-color: var(--ColorSecondaire);
+    @media (min-width: 768.02px) {
         display: none;
     }
 }
 
-.NavMobile > a {
-    text-decoration: none;
-    color: inherit;
+
+/* Container du Logo bloc 1/2 */
+.ContainerLogoNavMobile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+}
+@media (min-width: 0px) and (max-width: 300px) {
+    .ContainerLogoNavMobile {
+        width: 90px;
+    }
+}
+@media (min-width: 300px) and (max-width: 350px) {
+    .ContainerLogoNavMobile {
+        width: 100px;
+    }
+}
+@media (min-width: 350px) and (max-width: 400px) {
+    .ContainerLogoNavMobile {
+        width: 120px;
+    }
 }
 
-.NavMobile > a > h1 {
-    margin-bottom: 0.5rem;
+.ContainerLogoNavMobile > a {
+    margin: 16px 0px 16px 0px;
+    width: 100%;
+    max-width: 150px;
+}
+
+.ContainerLogoNavMobile > a > img {
+    width: 100%;
+    max-width: 150px;
+    object-fit: contain;
+}
+
+
+/* Container de la Navigation bloc 2/2 */
+.ContainerNavigationNavMobile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0px 0px 0px 0px;
+    /* Possible mise en place d'une marge sur la droite a cause du MenuBurger*/
+}
+@media (min-width: 0px) and (max-width: 400px) {
+    .ContainerNavigationNavMobile {
+        margin: 0px 35px 0px 0px;
+    }
+}
+@media (min-width: 400px) and (max-width: 500px) {
+    .ContainerNavigationNavMobile {
+        margin: 0px 32px 0px 0px;
+    }
+}
+@media (min-width: 500px) and (max-width: 550px) {
+    .ContainerNavigationNavMobile {
+        margin: 0px 24px 0px 0px;
+    }
+}
+@media (min-width: 550px) and (max-width: 600px) {
+    .ContainerNavigationNavMobile {
+        margin: 0px 16px 0px 0px;
+    }
+}
+@media (min-width: 600px) and (max-width: 768px) {
+    .ContainerNavigationNavMobile {
+        margin: 0px 8px 0px 0px;
+    }
+}
+
+/* Sous bloc 1/2 : Titre */
+.ContainerTitleNavMobile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.TitleNavMobile {
     font-size: var(--h1);
-    color: var(--textColorWhite);
+    color: var(--ColorPrincipal);
+    text-decoration: none;
 }
-@media (max-width: 250px) {
-    .NavMobile > a > h1 {
-        font-size: var(--h2);
+@media (min-width: 0px) and (max-width: 300px) {
+    .TitleNavMobile {
+        font-size: var(--h5);
     }
 }
-@media (min-width: 250px) and (max-width: 350px) {
-    .NavMobile > a > h1 {
+@media (min-width: 300px) and (max-width: 400px) {
+    .TitleNavMobile {
+        font-size: var(--h4);
+    }
+}
+@media (min-width: 400px) and (max-width: 500px) {
+    .TitleNavMobile {
+        font-size: var(--h3);
+    }
+}
+@media (min-width: 500px) and (max-width: 650px) {
+    .TitleNavMobile {
         font-size: var(--h2);
     }
 }
 
-.NavMobile > h2 {
-    margin-top: 0.5rem;
-    margin-bottom: 1.25rem;
-    color: var(--textColorWhite);
-    font-size: var(--h3);
-    text-align: center;
+/* Sous bloc 2/2 : Contact */
+.ContainerContactNavMobile {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
 
+
+/* Style du mail */
+.ContainerMailNavMobile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    width: 230px;
+    margin: 8px 0px 4px 0px;
+    border: 1.5px solid var(--ColorPrincipal);
+    transition: transform 0.2s ease, border-color 0.2s ease; /* Animation fluide */
+}
+@media (min-width: 0px) and (max-width: 300px) {
+    .ContainerMailNavMobile {
+        width: 140px;
+    }
+}
+@media (min-width: 300px) and (max-width: 350px) {
+    .ContainerMailNavMobile {
+        width: 140px;
+    }
+}
+@media (min-width: 350px) and (max-width: 400px) {
+    .ContainerMailNavMobile {
+        width: 160px;
+    }
+}
+@media (min-width: 400px) and (max-width: 500px) {
+    .ContainerMailNavMobile {
+        width: 200px;
+    }
+}
+.ContainerMailNavMobile:hover {
+    transform: scale(1.05);
+    border-color: white;
+}
+
+.ContactMailNavMobile {
+    font-size: var(--h5);
+    text-decoration: none;
+    color: var(--ColorPrincipal);
+}
+@media (min-width: 0px) and (max-width: 300px) {
+    .ContactMailNavMobile {
+        font-size: var(--h7);
+    }
+}
+@media (min-width: 300px) and (max-width: 400px) {
+    .ContactMailNavMobile {
+        font-size: var(--h6);
+    }
+}
+.ContactMailNavMobile:hover {
+    transform: scale(1.1);
+    color: white;
+}
+
+/* Style du numéro de téléphone */
+.ContainerTelNavMobile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    width: 230px;
+    margin: 4px 0px 0px 0px;
+    border: 1.5px solid var(--ColorPrincipal);
+    transition: transform 0.2s ease, border-color 0.2s ease; /* Animation fluide */
+}
+@media (min-width: 0px) and (max-width: 300px) {
+    .ContainerTelNavMobile {
+        width: 140px;
+    }
+}
+@media (min-width: 300px) and (max-width: 350px) {
+    .ContainerTelNavMobile {
+        width: 140px;
+    }
+}
+@media (min-width: 350px) and (max-width: 400px) {
+    .ContainerTelNavMobile {
+        width: 160px;
+    }
+}
+@media (min-width: 400px) and (max-width: 500px) {
+    .ContainerTelNavMobile {
+        width: 200px;
+    }
+}
+.ContainerTelNavMobile:hover {
+    transform: scale(1.05);
+    border-color: white;
+}
+
+.ContactTelNavMobile {
+    font-size: var(--h5);
+    text-decoration: none;
+    color: var(--ColorPrincipal);
+}
+@media (min-width: 0px) and (max-width: 300px) {
+    .ContactTelNavMobile {
+        font-size: var(--h7);
+    }
+}
+@media (min-width: 300px) and (max-width: 400px) {
+    .ContactTelNavMobile {
+        font-size: var(--h6);
+    }
+}
+.ContactTelNavMobile:hover {
+    transform: scale(1.1);
+    color: white;
+}
+
+
+/*----------------------------------------------------*/
 /*-----------------------------------------------*/
 /*Menu Burger*/
 
@@ -109,7 +308,7 @@
 
 #openBtn {
     position: fixed;
-    top: 0.5rem;
+    top: 0.4rem;
     right: 0.5rem;
 }
 .menuBurger > span {
