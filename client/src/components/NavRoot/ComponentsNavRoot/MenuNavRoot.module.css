@@ -7,37 +7,6 @@ NavPC.tsx
 from "../NavPC/NavPC.tsx"
 */
 
-.MenuSubMenu {
-    list-style: none;
-    padding-left: 1rem;
-    margin: 0.5rem 0;
-}
-
-.MenuSubMenu > li {
-    margin: 0.5rem 0;
-}
-
-.MenuSubMenu > li > a {
-    font-size: calc(var(--h3) - 1px);
-    color: var(--ColorPrincipal);
-    text-decoration: none;
-    transition: color 0.2s ease;
-}
-@media (min-width: 0px) and (max-width: 300px) {
-    .MenuSubMenu > li > a {
-        font-size: calc(var(--h5) - 1px);
-    }
-}
-@media (min-width: 300px) and (max-width: 400px) {
-    .MenuSubMenu > li > a {
-        font-size: calc(var(--h4) - 1px);
-    }
-}
-
-.MenuSubMenu > li > a:hover {
-    color: white;
-}
-
 /*------------------------------------------------------*/
 
 /*Style version Mobile*/
@@ -49,7 +18,7 @@ from "../NavPC/NavPC.tsx"
     align-items: flex-start;
     list-style-type: none;
     padding: 0;
-    margin: 0px 0px 0px 2rem;
+    margin: 0px 0px 0px 1.5rem;
 }
 
 .MenuLiMobile {
@@ -70,6 +39,33 @@ from "../NavPC/NavPC.tsx"
 @media (min-width: 300px) and (max-width: 400px) {
     .MenuLinkMobile {
         font-size: var(--h4);
+    }
+}
+
+/* Sous menu de Portraits*/
+.SubMenuUlMobile {
+    list-style: none;
+    padding-left: 1rem;
+    margin: 0.5rem 0;
+}
+
+.SubMenuLiMobile {
+    margin: 0.5rem 0;
+}
+
+.SubMenuLinkMobile {
+    font-size: calc(var(--h3) - 1px);
+    color: var(--ColorPrincipal);
+    text-decoration: none;
+}
+@media (min-width: 0px) and (max-width: 300px) {
+    .SubMenuLinkMobile {
+        font-size: calc(var(--h5) - 1px);
+    }
+}
+@media (min-width: 300px) and (max-width: 400px) {
+    .SubMenuLinkMobile {
+        font-size: calc(var(--h4) - 1px);
     }
 }
 
@@ -98,4 +94,28 @@ from "../NavPC/NavPC.tsx"
 .MenuLinkPC:hover {
     transform: scale(1.2); /* Augmente légèrement la taille */
     color: white; /* Change la couleur en blanc */
+}
+
+/* Sous menu de Portraits*/
+.SubMenuUlPC {
+    list-style: none;
+    padding-left: 1rem;
+    margin: 0.5rem 0;
+}
+
+.SubMenuLiPC {
+    margin: 0.5rem 0;
+}
+
+.SubMenuLinkPC {
+    display: inline-block;
+    font-size: var(--h5);
+    color: var(--ColorPrincipal);
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+.SubMenuLinkPC:hover {
+    transform: scale(1.2);
+    color: white;
 }

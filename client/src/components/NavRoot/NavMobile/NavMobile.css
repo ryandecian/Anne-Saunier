@@ -301,7 +301,7 @@
     align-items: center;
     color: white;
     border-radius: 50%;
-    background: linear-gradient(135deg, #3498db, #8e44ad); /* Dégradé bleu-violet */
+    background: none; /* Dégradé bleu-violet */
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Ombre */
     transition: transform 0.3s ease, box-shadow 0.3s ease, background 0.3s ease;
     border: none;
@@ -322,7 +322,7 @@
 #closeBtn:hover {
     transform: rotate(90deg) scale(1.1); /* Légère rotation et agrandissement */
     box-shadow: 0 8px 15px rgba(0, 0, 0, 0.5); /* Ombre renforcée */
-    background: linear-gradient(135deg, #3498db, #2980b9); /* Dégradé de couleur */
+    background: none; /* Dégradé de couleur */
 }
 
 
