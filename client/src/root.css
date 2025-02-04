@@ -35,6 +35,7 @@
     --h5: calc(var(--font-size-root) - 2px); /*14px*/
     --h6: calc(var(--font-size-root) - 5px); /*11px*/
     --h7: calc(var(--font-size-root) - 7px); /*9px*/
+    --h8: calc(var(--font-size-root) - 8px); /*8px*/
 }
 
 body {

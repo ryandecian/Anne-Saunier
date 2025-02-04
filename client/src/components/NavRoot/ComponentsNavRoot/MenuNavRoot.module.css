@@ -14,14 +14,24 @@ from "../NavPC/NavPC.tsx"
 }
 
 .MenuSubMenu > li {
-    margin: 0.3rem 0;
+    margin: 0.5rem 0;
 }
 
 .MenuSubMenu > li > a {
-    font-size: calc(var(--p) - 2px);
+    font-size: calc(var(--h3) - 1px);
     color: var(--ColorPrincipal);
     text-decoration: none;
     transition: color 0.2s ease;
+}
+@media (min-width: 0px) and (max-width: 300px) {
+    .MenuSubMenu > li > a {
+        font-size: calc(var(--h5) - 1px);
+    }
+}
+@media (min-width: 300px) and (max-width: 400px) {
+    .MenuSubMenu > li > a {
+        font-size: calc(var(--h4) - 1px);
+    }
 }
 
 .MenuSubMenu > li > a:hover {
@@ -49,17 +59,17 @@ from "../NavPC/NavPC.tsx"
 
 .MenuLinkMobile {
     text-decoration: none;
-    font-size: var(--p);
+    font-size: var(--h3);
     color: var(--ColorPrincipal);
 }
-@media (max-width: 250px) {
+@media (min-width: 0px) and (max-width: 400px) {
     .MenuLinkMobile {
         font-size: var(--h5);
     }
 }
-@media (min-width: 250px) and (max-width: 350px) {
-    .MenuLiMobile {
-        font-size: calc(var(--h5) + 1px);
+@media (min-width: 300px) and (max-width: 400px) {
+    .MenuLinkMobile {
+        font-size: var(--h4);
     }
 }
 
