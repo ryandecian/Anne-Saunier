@@ -76,7 +76,7 @@
     align-items: center;
     border-radius: 4px;
     width: 230px;
-    margin: 0px 8px 0px 0px;
+    margin: 0px 8px 16px 0px;
     border: 1.5px solid var(--ColorPrincipal);
     transition: transform 0.2s ease, border-color 0.2s ease; /* Animation fluide */
 }
@@ -102,7 +102,7 @@
     align-items: center;
     border-radius: 4px;
     width: 230px;
-    margin: 0px 0px 0px 8px;
+    margin: 0px 0px 16px 8px;
     border: 1.5px solid var(--ColorPrincipal);
     transition: transform 0.2s ease, border-color 0.2s ease; /* Animation fluide */
 }

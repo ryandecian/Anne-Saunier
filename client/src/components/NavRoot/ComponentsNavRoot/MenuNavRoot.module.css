@@ -7,6 +7,27 @@ NavPC.tsx
 from "../NavPC/NavPC.tsx"
 */
 
+.MenuSubMenu {
+    list-style: none;
+    padding-left: 1rem;
+    margin: 0.5rem 0;
+}
+
+.MenuSubMenu > li {
+    margin: 0.3rem 0;
+}
+
+.MenuSubMenu > li > a {
+    font-size: calc(var(--p) - 2px);
+    color: var(--ColorPrincipal);
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+.MenuSubMenu > li > a:hover {
+    color: white;
+}
+
 /*------------------------------------------------------*/
 
 /*Style version Mobile*/
@@ -23,12 +44,13 @@ from "../NavPC/NavPC.tsx"
 
 .MenuLiMobile {
     margin: 0.5rem 0rem 0.5rem 0rem;
+    cursor: pointer;
 }
 
 .MenuLinkMobile {
     text-decoration: none;
     font-size: var(--p);
-    color: var(--textColorBlack);
+    color: var(--ColorPrincipal);
 }
 @media (max-width: 250px) {
     .MenuLinkMobile {

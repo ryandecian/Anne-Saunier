@@ -6,9 +6,11 @@
          --ColorPrincipal: #DCA54A;
          --ColorSecondaire: #523711;
          --ColorTexte: #3A3A3A;
-         --ColorAccentue: #DCA54A;
          --backgroundBlack: black;
          --backgroundWhite: white;
+
+    /* Autre paramètre de dépendance */
+         --box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px;
 
      /*Couleur des textes du Footer*/
          --Copyright: #ff007f;

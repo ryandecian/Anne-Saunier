@@ -250,8 +250,9 @@
     z-index: 1;
     top: 0;
     right: -250px;
-    background-color: var(--BackgroudMenuBurger);
+    background-color: var(--ColorSecondaire);
     transition: right 0.5s ease;
+    box-shadow: var(--box-shadow);
 }
 @media (max-width: 250px) {
     .sideNav {
