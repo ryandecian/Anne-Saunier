@@ -32,13 +32,16 @@ function MenuNavRoot(Props: MenuNavRootProps) {
         {isSubMenuOpen && (
           <ul className={moduleSubMenu}>
             <li className={moduleSubMenuLi}>
-              <Link to="/portraits/studio" className={moduleMenuLink}>Studio</Link>
+              <Link to="/portraits-individuels" className={moduleMenuLink}>Individuels</Link>
             </li>
             <li className={moduleSubMenuLi}>
-              <Link to="/portraits/exterieur" className={moduleMenuLink}>Extérieur</Link>
+              <Link to="/portraits-couple" className={moduleMenuLink}>Couple</Link>
             </li>
             <li className={moduleSubMenuLi}>
-              <Link to="/portraits/famille" className={moduleMenuLink}>Famille</Link>
+              <Link to="/portraits-corporate" className={moduleMenuLink}>Corporate</Link>
+            </li>
+            <li className={moduleSubMenuLi}>
+              <Link to="/portraits-enfant" className={moduleMenuLink}>Grossesse / Nouveau nés</Link>
             </li>
           </ul>
         )}

@@ -95,7 +95,6 @@ from "../NavPC/NavPC.tsx"
     color: var(--ColorPrincipal);
     transition: transform 0.3s ease, color 0.2s ease;
 }
-
 .MenuLinkPC:hover {
     transform: scale(1.2); /* Augmente légèrement la taille */
     color: white; /* Change la couleur en blanc */
